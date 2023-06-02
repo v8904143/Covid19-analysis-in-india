@@ -1,6 +1,7 @@
 
 
-#([[images/confirmed_cases_thrissur.png](https://i.imgur.com/wjM3LCG.jpg)](https://i.imgur.com/wjM3LCG.jpg)) **COVID-19 Data Analysis of India**
+#![Image Description](https://github.com/v8904143/Covid19-analysis-in-india/blob/8bf95f084d1528db89f95551fb69b694107e522d/covid.jpg)
+ **COVID-19 Data Analysis of India**
 
 This repository contains the code and data for a COVID-19 data analysis project focused on India. The project aims to extract, clean, analyze, and visualize COVID-19 data to gain insights into the pandemic situation across cities in India. The analysis includes identifying pain points, death rates, and vaccination percentages.
 
