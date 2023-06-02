@@ -1,6 +1,6 @@
 
 
-#![Image Description](https://raw.githubusercontent.com/v8904143/Covid19-analysis-in-india/8bf95f084d1528db89f95551fb69b694107e522d/covid.jpg)
+![image](https://github.com/v8904143/Covid19-analysis-in-india/blob/main/covid.jpg)
 
  **COVID-19 Data Analysis of India**
 
