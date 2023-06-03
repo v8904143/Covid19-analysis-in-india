@@ -72,6 +72,25 @@ Here are a few visualizations showcasing the COVID-19 data analysis:
 
 <a href="https://imgur.com/ctOTXvh"><img src="https://i.imgur.com/ctOTXvh.png" title="source: imgur.com" /></a>
 
+
+## Challenges Faced
+
+During the course of this project, we encountered several challenges that required problem-solving and collaborative efforts. Here are some of the key challenges we faced:
+
+1. Data Scraping: Extracting data from the nested JSON structure proved to be a challenging task. We had to overcome issues related to accessing nested fields and handling complex data structures to retrieve the required information accurately.
+
+2. Data Cleaning: The raw data obtained from the web scraping process often contained inconsistencies, missing values, and formatting issues. We faced challenges in identifying and resolving these issues to ensure the quality and reliability of the data.
+
+3. Data Transformation: Converting the extracted data into the desired data frames and formats required careful handling and transformation. We encountered challenges in restructuring and reshaping the data to align with our analysis requirements.
+
+4. Data Integration: Incorporating data from multiple sources and merging them into a unified dataset presented challenges related to data integration and handling discrepancies between different datasets.
+
+5. Analysis Complexity: Analyzing the COVID-19 data involved dealing with a large volume of data and performing complex queries and computations. We faced challenges in optimizing the analysis process to ensure efficiency and avoid performance issues.
+
+6. Visualization: Creating informative and visually appealing visualizations of the COVID-19 data presented challenges in selecting appropriate charts, effectively communicating the insights, and ensuring the visualizations were intuitive and understandable.
+
+Through collaborative research, discussions, and leveraging our skills in data analysis and visualization, we were able to overcome these challenges and successfully complete the project. These experiences have enhanced our problem-solving abilities and deepened our understanding of data analysis in the context of the COVID-19 pandemic.
+
 ## Conclusion
 
 The COVID-19 pandemic has highlighted the importance of data in navigating complexities, identifying risks, and tracking progress towards recovery. The visualizations and stories derived from this analysis inspire us to utilize data to gain new perspectives and find answers to pressing questions. By leveraging data, we can make informed decisions and adapt strategies to effectively respond to the pandemic.
