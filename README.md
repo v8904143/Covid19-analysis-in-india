@@ -1,6 +1,4 @@
-<img src="https://github.com/v8904143/Covid19-analysis-in-india/raw/main/covid.jpg" alt="COVID-19 Analysis" width="500" height="300">
-
-
+<a href="https://imgur.com/wjM3LCG"><img src="https://i.imgur.com/wjM3LCG.jpg" title="source: imgur.com" /></a>"
 
  **COVID-19 Data Analysis of India**
 
@@ -30,6 +28,8 @@ The main objectives of this project are as follows:
 
 ## Methodology
 
+<a href="https://imgur.com/eT68L0o"><img src="https://i.imgur.com/eT68L0o.png" title="source: imgur.com" /></a>
+
 The project follows the following methodology:
 
 1. Data Scraping:
@@ -55,6 +55,8 @@ The project follows the following methodology:
 
 Based on the analysis conducted, the following insights were derived:
 
+<a href="https://imgur.com/FwDVYC8"><img src="https://i.imgur.com/FwDVYC8.png" title="source: imgur.com" /></a>
+
 - The highest number of COVID-19 confirmed cases and deceased cases (3089) were found in Thrissur city, Kerala during October 2021.
 - Bihar state had the maximum vaccination rate (both doses) with no reported deaths.
 - Testing ratio (Tr) was inversely proportional to the number of deaths, indicating that higher testing ratios led to a gradual decrease in the number of deceased cases.
@@ -64,11 +66,7 @@ Based on the analysis conducted, the following insights were derived:
 
 Here are a few visualizations showcasing the COVID-19 data analysis:
 
-![Confirmed Cases in Thrissur, Kerala](path/to/confirmed_cases_thrissur.png)
-
-![Vaccination Rate in Bihar](path/to/vaccination_rate_bihar.png)
-
-![Testing Ratio and Number of Deaths](path/to/testing_ratio_deaths.png)
+<a href="https://imgur.com/ctOTXvh"><img src="https://i.imgur.com/ctOTXvh.png" title="source: imgur.com" /></a>
 
 ## Conclusion
 
