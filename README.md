@@ -1,10 +1,14 @@
 <a href="https://imgur.com/wjM3LCG"><img src="https://i.imgur.com/wjM3LCG.jpg" title="source: imgur.com" /></a>"
 
- **COVID-19 Data Analysis of India**
+## <a href="https://imgur.com/SRujbkj"><img src="https://i.imgur.com/SRujbkj.gif" alt="Animated GIF" width="100" height="100"></a>  COVID-19 Data Analysis of India
+
 
 This repository contains the code and data for a COVID-19 data analysis project focused on India. The project aims to extract, clean, analyze, and visualize COVID-19 data to gain insights into the pandemic situation across cities in India. The analysis includes identifying pain points, death rates, and vaccination percentages.
 
 ## Tech Stack
+
+<a href="https://imgur.com/IWTYHaS"><img src="https://i.imgur.com/IWTYHaS.jpg" title="source: imgur.com" /></a>    <a href="https://imgur.com/uKgvaMq"><img src="https://i.imgur.com/uKgvaMq.png" title="source: imgur.com" /></a>       <a href="https://imgur.com/xlaBiS2"><img src="https://i.imgur.com/xlaBiS2.png" title="source: imgur.com" /></a>
+
 
 - Python
 - SQL (MS-SQL)
@@ -76,4 +80,4 @@ Feel free to explore the code and data in this repository to gain insights into 
 
 Please note that the data used in this analysis is based on the available information up to the knowledge cutoff date of this model (September 2021).
 
-For any inquiries or collaboration opportunities, please contact [your contact information].
+For any inquiries or collaboration opportunities, please contact.
