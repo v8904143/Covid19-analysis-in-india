@@ -1,6 +1,6 @@
+<img src="https://github.com/v8904143/Covid19-analysis-in-india/raw/main/covid.jpg" alt="COVID-19 Analysis" width="500" height="300">
 
 
-![image](https://github.com/v8904143/Covid19-analysis-in-india/blob/main/covid.jpg)
 
  **COVID-19 Data Analysis of India**
 
