@@ -1,0 +1,136 @@
+create database covid19 
+use covid19
+
+--Weekly evolution of number of confirmed cases, recovered cases, deaths, tests.
+--For instance, your dashboard should be able to compare Week 3 of May with Week 2 of August 
+
+select state, sum(confirmed) as confirmed,sum( recovered) as recovered,sum( deceased)as deceased , sum(tested) as tested,
+
+(datediff(day, dateadd(month, datediff(month, 0, state_date.dates), 0),state_date.dates ) / 7 + 1) as weeknumber
+
+from state_date join total_1
+on state_date.dates=total_1.dates
+
+group by state,(datediff(day, dateadd(month, datediff(month, 0, state_date.dates), 0),state_date.dates ) / 7 + 1)
+order by state,weeknumber
+ 
+
+ select * from state_date
+
+--WeekInMonth = datediff(day, dateadd(month, datediff(month, 0, dt. DateValue), 0), dt. DateValue) / 7 + 1.
+
+
+--with cte as
+--(
+--select *, datename(month,dates) as months,datename(WEEKDAY,dates) as day_name,datepart(WEEKDAY,dates) as weekdays 
+--from state_date
+--)
+--select months,day_name,dates,weekdays,DENSE_RANK() over(partition by months,weekdays order by weekdays) as ranks
+--from cte
+--group by months,day_name,dates,weekdays
+
+--where dates > '2020-04-30'
+
+--- Let’s call `testing ratio(tr) = (number of tests done) / (population)`,
+--now categorise every district in one of the following categories:
+--    - Category A: 0.05 ≤ tr ≤ 0.1
+--    - Category B: 0.1 < tr ≤ 0.3
+--    - Category C: 0.3 < tr ≤ 0.5
+--    - Category D: 0.5 < tr ≤ 0.75
+--    - Category E: 0.75 < tr ≤ 1.0 
+--    Now perform an analysis of number of deaths across all category.
+--	Example, what was the number / % of deaths in Category A district as compared for Category E districts
+
+select districts_total.districts,(tested/population) as Testing_ratio,
+case when (tested/population) >= 0.05 and (tested/population) <=0.1 then 'Category A' 
+	when (tested/population) >= 0.1 and (tested/population) <=0.3 then 'Category B'
+	when (tested/population) >= 0.3 and (tested/population) <=0.5 then 'Category C'
+	when (tested/population) >= 0.5 and (tested/population) <=0.75 then 'Category D' 
+	when (tested/population) >= 0.75 and (tested/population) <=1.0 then 'Category E'  
+	END AS Categories
+from 
+districts_total join districts_meta on districts_total.districts=districts_meta.districts
+where tested >0 and population >0
+
+
+
+
+
+--Compare delta7 confirmed cases with respect to vaccination
+
+select state_code,delta7_confirmed,(delta7_vaccinated1+delta7_vaccinated2) as vacination from states
+
+
+
+--Generate 2 - 3 insights that is very difficult to observe
+
+---------------------------- Vacination ration compare to population --------------------------------
+select state_code,meta_population,(total_vaccinated1+total_vaccinated2) as vacination,
+((total_vaccinated1+total_vaccinated2)/meta_population) as vacination_ratio from states
+
+
+--------------comparison of confirmed,recovered,deceased---------------------------
+select state_code,total_confirmed,total_recovered,total_deceased
+from states
+
+select * from states
+
+--Make at least 2 such KPI that presents the 
+--severity of case in different states (example: 
+--Any numerical measure to comment on how severe were 
+--the cases in Bihar as compared to that of Kerala) 
+
+select state_code,(total_vaccinated1+total_vaccinated2) as vacination from states 
+
+select state_code,delta7_confirmed,total_deceased
+from states
+
+
+
+--Categorise total number of confirmed cases in a state by Months
+--and come up with that one month which was worst for 
+--India in terms of number of cases
+
+
+with cte as
+(
+select state,DATENAME(MONTH,state_date.dates) as months,month(state_date.dates) as num,max(confirmed) as max_confirmed_cases  
+from state_date join total_1
+on state_date.dates=total_1.dates
+group by state,DATENAME(MONTH,state_date.dates),month(state_date.dates) 
+)
+
+select  state,months,max_confirmed_cases
+from cte
+order by num,max_confirmed_cases
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
