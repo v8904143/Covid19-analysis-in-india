@@ -69,6 +69,7 @@ Based on the analysis conducted, the following insights were derived:
 ## Visualizations
 
 Here are a few visualizations showcasing the COVID-19 data analysis:
+https://public.tableau.com/app/profile/vinod.patil2249/viz/Covid19-chart1/Dashboard1
 
 <a href="https://imgur.com/ctOTXvh"><img src="https://i.imgur.com/ctOTXvh.png" title="source: imgur.com" /></a>
 
