@@ -5,7 +5,7 @@
 
 This repository contains the code and data for a COVID-19 data analysis project focused on India. The project aims to extract, clean, analyze, and visualize COVID-19 data to gain insights into the pandemic situation across cities in India. The analysis includes identifying pain points, death rates, and vaccination percentages.
 
-## <a href=https://github-production-user-asset-6210df.s3.amazonaws.com/67503481/244157588-c18579cc-df95-4bea-980e-653c6b89c0d5.png Introduction
+## <<blockquote class="imgur-embed-pub" lang="en" data-id="rp2RgDV"><a href="https://imgur.com/rp2RgDV">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script> Introduction
 ## Tech Stack
 
 <a href="https://imgur.com/IWTYHaS"><img src="https://i.imgur.com/IWTYHaS.jpg" title="source: imgur.com" /></a>    <a href="https://imgur.com/uKgvaMq"><img src="https://i.imgur.com/uKgvaMq.png" title="source: imgur.com" /></a>       <a href="https://imgur.com/xlaBiS2"><img src="https://i.imgur.com/xlaBiS2.png" title="source: imgur.com" /></a>
